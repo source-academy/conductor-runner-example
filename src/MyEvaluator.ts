@@ -1,4 +1,5 @@
-import {BasicEvaluator, IRunnerPlugin} from "sa-conductor/dist/conductor/runner";
+import { BasicEvaluator } from "conductor/dist/conductor/runner";
+import { IRunnerPlugin } from "conductor/dist/conductor/runner/types";
 
 const eval2 = eval;
 
@@ -11,8 +12,8 @@ export class MyEvaluator extends BasicEvaluator {
         this.conductor.sendOutput(`Chunk ${this.someEvaluatorState} evaluated!`);
     }
 
-    constructor() {
-        super();
+    constructor(conductor: IRunnerPlugin) {
+        super(conductor);
         this.someEvaluatorState = 0;
     }
 }

@@ -9,7 +9,8 @@ It is important to mark this function `async` to block receiving more chunks whi
 especially when `await`ing Conductor functions or other asynchronous code.
 Alternatively, if you would like to allow more chunks to be received, remove the `async` keyword.
 You may need to write a separate `async` function to use the `await` keyword, and call it in `evaluateChunk`
-without awaiting (do not return your separate function's Promise in `evaluateChunk`!).
+without awaiting (do not return your separate function's Promise in `evaluateChunk`,
+or the receiving of more chunks will be blocked!).
 
 Interaction with the Source Academy frontend can be done through the `conductor` property.
 For example, `conductor.sendOutput(str)` shows `str` on the REPL.

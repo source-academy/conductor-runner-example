@@ -25,8 +25,8 @@
     "@rollup/plugin-node-resolve": "^16.0.0",
     "@rollup/plugin-terser": "^0.4.4",
     "@rollup/plugin-typescript": "^12.1.2",
+    "conductor": "https://github.com/source-academy/conductor.git#0.2.0",
     "rollup": "^4.34.1",
-    "sa-conductor": "https://github.com/tsammeow/sa-conductor.git#0.1.0",
     "tslib": "^2.8.1",
     "typescript": "^5.5.3"
   }

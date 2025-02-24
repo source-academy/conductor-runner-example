@@ -458,12 +458,19 @@ __metadata:
     "@rollup/plugin-node-resolve": "npm:^16.0.0"
     "@rollup/plugin-terser": "npm:^0.4.4"
     "@rollup/plugin-typescript": "npm:^12.1.2"
+    conductor: "https://github.com/source-academy/conductor.git#0.2.0"
     rollup: "npm:^4.34.1"
-    sa-conductor: "https://github.com/tsammeow/sa-conductor.git#0.1.0"
     tslib: "npm:^2.8.1"
     typescript: "npm:^5.5.3"
   languageName: unknown
   linkType: soft
+
+"conductor@https://github.com/source-academy/conductor.git#0.2.0":
+  version: 0.2.0
+  resolution: "conductor@https://github.com/source-academy/conductor.git#commit=ff4327b38b3ea20516f1f4b9ae512d494518b36a"
+  checksum: 10c0/100ea2c5c716abf98a879e8f98a9ec63651d39a99e384fa9649db156e660a9918c4375c91e916f3f4efa9889c3ce9893936063a038b31683db530423b3abd14a
+  languageName: node
+  linkType: hard
 
 "cross-spawn@npm:^7.0.0":
   version: 7.0.6
@@ -1090,13 +1097,6 @@ __metadata:
   bin:
     rollup: dist/bin/rollup
   checksum: 10c0/0d55e43754698996de5dea5e76041ea20d11d810e159e74d021e16fef23a3dbb456f77e04afdb0a85891905c3f92d5cefa64ade5581a9e31839fec3a101d7626
-  languageName: node
-  linkType: hard
-
-"sa-conductor@https://github.com/tsammeow/sa-conductor.git#0.1.0":
-  version: 0.1.0
-  resolution: "sa-conductor@https://github.com/tsammeow/sa-conductor.git#commit=1d566fc684fafa5074aacd08adc09ecae12cf917"
-  checksum: 10c0/7839dd08effd6ce05f7b3c3d6f13d6c75ff1957928c0dc62b029729dac94645d7234dd5f1cd5d7b960e059f5fc2eb92719d30866670263b6734752b5045b89b5
   languageName: node
   linkType: hard
 

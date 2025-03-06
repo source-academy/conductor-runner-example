@@ -458,17 +458,17 @@ __metadata:
     "@rollup/plugin-node-resolve": "npm:^16.0.0"
     "@rollup/plugin-terser": "npm:^0.4.4"
     "@rollup/plugin-typescript": "npm:^12.1.2"
-    conductor: "https://github.com/source-academy/conductor.git#0.2.0"
+    conductor: "https://github.com/source-academy/conductor.git#0.2.1"
     rollup: "npm:^4.34.1"
     tslib: "npm:^2.8.1"
     typescript: "npm:^5.5.3"
   languageName: unknown
   linkType: soft
 
-"conductor@https://github.com/source-academy/conductor.git#0.2.0":
-  version: 0.2.0
-  resolution: "conductor@https://github.com/source-academy/conductor.git#commit=ff4327b38b3ea20516f1f4b9ae512d494518b36a"
-  checksum: 10c0/100ea2c5c716abf98a879e8f98a9ec63651d39a99e384fa9649db156e660a9918c4375c91e916f3f4efa9889c3ce9893936063a038b31683db530423b3abd14a
+"conductor@https://github.com/source-academy/conductor.git#0.2.1":
+  version: 0.2.1
+  resolution: "conductor@https://github.com/source-academy/conductor.git#commit=d933713f5ae5b822e4f521872a5d9cb46d79b5df"
+  checksum: 10c0/b09c2913f97e62a54ae45f61cd905bfec07d62d14393e7e7476fc4afe474b4a19594cd394ab9df6147849dba9353de4dfbe996eaeb3d151066ac8930d588c5d7
   languageName: node
   linkType: hard
 

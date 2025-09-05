@@ -2,6 +2,14 @@
 
 An example of how to use the Conductor framework to create a runner that will run on Source Academy.
 
+## Using this repository
+
+This repository is a *template*. To use, click the "Use this template" button,
+and create a new repository for yourself - don't clone or fork this repository.
+
+However, if you wish to propose changes to this repository, then *do* clone or fork it - 
+don't create a new repository based on this template.
+
 ## Implementing a new language
 
 See `src/MyEvaluator.ts`. The user's code is received in the argument to `evaluateChunk`.

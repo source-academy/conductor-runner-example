@@ -15,6 +15,13 @@ or the receiving of more chunks will be blocked!).
 Interaction with the Source Academy frontend can be done through the `conductor` property.
 For example, `conductor.sendOutput(str)` shows `str` on the REPL.
 
+## Testing your new language
+
+Run `yarn start`. This starts a development server and compiles your evaluator in watch mode
+(recompiling on any changes).
+
+Your evaluator will be available at [`http://localhost:8123/index.js`](http://localhost:8123/index.js).
+
 ## Making your language available to run
 
 Run `yarn build`. If there are no problems, a file `dist/index.js` will be generated.

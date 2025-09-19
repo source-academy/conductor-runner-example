@@ -1,13 +1,13 @@
 {
   "name": "conductor-runner-example",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "packageManager": "yarn@4.6.0",
   "description": "",
   "type": "module",
   "main": "dist/index.js",
   "scripts": {
     "build": "rollup -c",
-    "start": "rollup -cw & http-server ./dist -p8123 -c-1 &"
+    "start": "rollup -cw & http-server ./dist -p8123 -c-1 --cors &"
   },
   "repository": {
     "type": "git",

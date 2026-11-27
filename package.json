@@ -14,7 +14,7 @@
     "url": "git+https://github.com/tsammeow/conductor-runner-example.git"
   },
   "author": "tsammeow",
-  "license": "ISC",
+  "license": "Apache-2.0",
   "files": [
     "dist"
   ],
